@@ -21,7 +21,6 @@ function jatekter() {
     for (let index = 0; index < 9; index++) {
         txt += `<div class="mezo"><p>div${[index+1]}</p>
         </div>`
-
         
     }
     $(".container")[0].innerHTML=txt;
